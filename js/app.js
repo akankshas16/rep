@@ -18,7 +18,7 @@
     });
 
     var menuList = Backbone.Collection.extend({
-        model:menu
+        model:menuItem
     });
 
     var menuView = Backbone.View.extend({
