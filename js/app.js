@@ -1,17 +1,17 @@
 
 
 (function ($) {
-    var menus = [{name:"dish1", add-on:"something1", description:"", cost:"100"},
-        {name:"dish2", add-on:"something2", description:"", cost:"100"},
-        {name:"dish3", add-on:"something1", description:"", cost:"100"},
-        {name:"dish4", add-on:"something3", description:"", cost:"100"},
-        {name:"dish5", add-on:"something3", description:"", cost:"100"}];
+    var menus = [{name:"dish1", addon:"something1", description:"", cost:"100"},
+        {name:"dish2", addon:"something2", description:"", cost:"100"},
+        {name:"dish3", addon:"something1", description:"", cost:"100"},
+        {name:"dish4", addon:"something3", description:"", cost:"100"},
+        {name:"dish5", addon:"something3", description:"", cost:"100"}];
 
     var menuItem = Backbone.Model.extend({
         defaults:{
             
              name:"dish",
-             add-on:"something",
+             addon:"something",
              description:"",
              cost:"100"
         }
