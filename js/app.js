@@ -50,7 +50,7 @@
         },
 
         rendermenu:function(item){
-            var menuView = new menuView({
+            var menuV = new menuView({
                 model: item
             });
             this.$el.append(menuView.render().el);
